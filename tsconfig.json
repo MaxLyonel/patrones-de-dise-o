@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",               // Última versión de JS
+    "module": "NodeNext",             // Para usar import/export en Node
+    "moduleResolution": "NodeNext",   // Resolver módulos estilo Node
+    "rootDir": "src",                 // Código fuente
+    "outDir": "dist",                 // Código compilado
+    "strict": true,                   // Tipado estricto
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,              // Generar .d.ts
+    "sourceMap": true,
+    "verbatimModuleSyntax": true,      // Import exacto
+    "skipLibCheck": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  }
+}
