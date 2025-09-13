@@ -1,5 +1,5 @@
 // report-decorator.abstract.ts
-import type { IReport } from "./reporte.interface.ts";
+import type { IReport } from "../tipos-reportes/reporte.interface.ts";
 
 export abstract class ReportDecorator implements IReport {
   protected reporte: IReport
