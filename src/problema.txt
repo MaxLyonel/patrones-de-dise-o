@@ -1,0 +1,21 @@
+
+
+
+
+La empresa financiera FinanTech Solutions desea implementar un sistema interno para
+la generación, transformación y entrega de reportes automáticos de indicadores financieros.
+Estos reportes pueden tener diferentes formatos de salida (PDF, Excel, CSV),
+distintos niveles de procesamiento (básico, detallado, encriptado), y deben poder enviarse
+mediante distintos canales (correo, almacenamiento en carpeta compartida o API).
+
+El sistema debe permitir:
+
+- Generar reportes a partir de datos agregados.
+- Aplicar diferentes estrategias de procesamiento según el tipo de usuario (Ejecutivo, Auditor, Analista).
+- Transformar el contenido del reporte aplicando mejoras opcionales (encabezados, marcas de agua, cifrado, compresión).
+- Entregar el reporte a través de diferentes mecanismos (cada uno debe ser intercambiable sin modificar el código de la
+  lógica principal).
+- Soportar nuevas estrategias o tipos de entrega sin modificar el código existente.
+
+
+El enfoque debe estar en el diseño de clases, interfaces y uso de patrones.
