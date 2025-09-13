@@ -70,7 +70,6 @@ async function main() {
 
   let reporte = factory.descargarReporte(formato, contenido, usuario.estrategia);
 
-  console.log("************ INICIO DEL REPORTE **************")
 
   const aplicarEncabezado = await preguntar("Agregar encabezado? (s/n): ");
   if (aplicarEncabezado.toLowerCase() === "s") {
@@ -92,8 +91,9 @@ async function main() {
     reporte = new CompresionDecorator(reporte);
   }
 
-  console.log("************ FIN DEL REPORTE **************")
+  console.log("************ INICIO DEL REPORTE **************")
   console.log(reporte.obtenerContenido(), "\n");
+  console.log("************ FIN DEL REPORTE **************")
 
   rl.close();
 }

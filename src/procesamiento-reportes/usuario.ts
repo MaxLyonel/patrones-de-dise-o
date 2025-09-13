@@ -1,4 +1,3 @@
-// usuario.ts
 import type { IProcesamiento } from "./procesamiento.interface.ts";
 
 export type TipoUsuario = "Ejecutivo" | "Auditor" | "Analista";

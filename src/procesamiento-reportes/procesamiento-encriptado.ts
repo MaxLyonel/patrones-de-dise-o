@@ -8,7 +8,7 @@ export class EncriptadoProcesamiento implements IProcesamiento {
     const contenidoOriginal = reporte.obtenerContenido();
     return {
       obtenerContenido: () =>
-        contenidoOriginal.split("").reverse().join(""), // simulación de cifrado
+        contenidoOriginal.split("").reverse().join(""),
     };
   }
 }
